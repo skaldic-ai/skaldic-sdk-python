@@ -12,7 +12,7 @@ pip install skaldic-sdk
 
 | Package | Status | Description |
 |---|---|---|
-| `skaldic.traust` | Available | Task-Based Access Control (TBAC) for AI agents |
+| `skaldic.traust` | Available | Task-Based Access Control (TBAC) for Agentic AI |
 | `skaldic.odin` | Coming soon | — |
 | `skaldic.huginn` | Coming soon | — |
 | `skaldic.muninn` | Coming soon | — |

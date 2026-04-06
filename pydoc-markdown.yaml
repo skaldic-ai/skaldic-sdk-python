@@ -1,0 +1,23 @@
+loaders:
+  - type: python
+    search_path: [src]
+    modules:
+      - skaldic.traust.session
+      - skaldic.traust.models
+      - skaldic.traust.exceptions
+      - skaldic.traust.http_client
+
+processors:
+  - type: filter
+    skip_empty_modules: true
+    documented_only: false
+    expression: not name.startswith('_') or name == '__init__'
+  - type: smart
+  - type: crossref
+
+renderer:
+  type: markdown
+  descriptive_class_title: false
+  render_toc: false
+  render_module_header: true
+  add_member_class_prefix: false
