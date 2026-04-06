@@ -32,7 +32,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://skaldic.ai"
+Homepage = "https://skaldicai.com"
+Documentation = "https://docs.skaldicai.com"
 Repository = "https://github.com/skaldic-ai/skaldic-sdk-python"
 Issues = "https://github.com/skaldic-ai/skaldic-sdk-python/issues"
 
